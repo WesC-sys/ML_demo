@@ -1,0 +1,48 @@
+/*
+ * Copyright (c) 2021 Nordic Semiconductor ASA
+ *
+ * SPDX-License-Identifier: LicenseRef-Nordic-5-Clause
+ */
+
+ &i2c1 {
+    relay: relay@18 {
+        compatible = "i2c-device";
+        reg = <0x18>; 
+        label = "RELAY"; 
+    };
+};
+
+
+&i2c1_default {
+    group1 {
+        psels = <NRF_PSEL(TWIM_SDA, 0, 4)>, <NRF_PSEL(TWIM_SCL, 0, 5)>;
+    };
+};
+
+
+
+/ {
+	chosen {
+		ncs,ml-app-ei-data-forwarder-uart = &uart0;
+	};
+};
+
+/ {
+	pwmleds {
+		red_led_pwm: led_pwm_0 {
+			pwms = <&pwm0 0 PWM_MSEC(1) PWM_POLARITY_NORMAL>;
+		};
+
+		green_led_pwm: led_pwm_1 {
+			pwms = <&pwm0 1 PWM_MSEC(1) PWM_POLARITY_NORMAL>;
+		};
+
+		blue_led_pwm: led_pwm_2 {
+			pwms = <&pwm0 2 PWM_MSEC(1) PWM_POLARITY_NORMAL>;
+		};
+	};
+
+	npm1100_force_pwm_mode: npm1100_force_pwm_mode {
+		status = "okay";
+	};
+};
