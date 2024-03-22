@@ -1,0 +1,3 @@
+repository='external project URL'
+module='C:/nordic/myApps/ML_demo/src/model.zip'
+tag=''

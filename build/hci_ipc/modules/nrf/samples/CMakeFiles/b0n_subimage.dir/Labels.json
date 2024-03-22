@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/nordic/myApps/ML_demo/build/hci_ipc/modules/nrf/samples/CMakeFiles/b0n_subimage"
+		},
+		{
+			"file" : "C:/nordic/myApps/ML_demo/build/hci_ipc/modules/nrf/samples/CMakeFiles/b0n_subimage.rule"
+		},
+		{
+			"file" : "C:/nordic/myApps/ML_demo/build/hci_ipc/modules/nrf/samples/CMakeFiles/b0n_subimage-complete.rule"
+		},
+		{
+			"file" : "C:/nordic/myApps/ML_demo/build/hci_ipc/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-build.rule"
+		},
+		{
+			"file" : "C:/nordic/myApps/ML_demo/build/hci_ipc/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-configure.rule"
+		},
+		{
+			"file" : "C:/nordic/myApps/ML_demo/build/hci_ipc/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-download.rule"
+		},
+		{
+			"file" : "C:/nordic/myApps/ML_demo/build/hci_ipc/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-install.rule"
+		},
+		{
+			"file" : "C:/nordic/myApps/ML_demo/build/hci_ipc/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-mkdir.rule"
+		},
+		{
+			"file" : "C:/nordic/myApps/ML_demo/build/hci_ipc/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-patch.rule"
+		},
+		{
+			"file" : "C:/nordic/myApps/ML_demo/build/hci_ipc/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"b0n_subimage"
+		],
+		"name" : "b0n_subimage"
+	}
+}

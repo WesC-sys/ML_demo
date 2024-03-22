@@ -1,0 +1,13 @@
+# Target labels
+ edge_impulse_project
+# Source files and their labels
+C:/nordic/myApps/ML_demo/build/modules/nrf/lib/edge_impulse/CMakeFiles/edge_impulse_project
+C:/nordic/myApps/ML_demo/build/modules/nrf/lib/edge_impulse/CMakeFiles/edge_impulse_project.rule
+C:/nordic/myApps/ML_demo/build/modules/nrf/lib/edge_impulse/CMakeFiles/edge_impulse_project-complete.rule
+C:/nordic/myApps/ML_demo/build/edge_impulse/src/edge_impulse_project-stamp/edge_impulse_project-build.rule
+C:/nordic/myApps/ML_demo/build/edge_impulse/src/edge_impulse_project-stamp/edge_impulse_project-configure.rule
+C:/nordic/myApps/ML_demo/build/edge_impulse/src/edge_impulse_project-stamp/edge_impulse_project-download.rule
+C:/nordic/myApps/ML_demo/build/edge_impulse/src/edge_impulse_project-stamp/edge_impulse_project-install.rule
+C:/nordic/myApps/ML_demo/build/edge_impulse/src/edge_impulse_project-stamp/edge_impulse_project-mkdir.rule
+C:/nordic/myApps/ML_demo/build/edge_impulse/src/edge_impulse_project-stamp/edge_impulse_project-patch.rule
+C:/nordic/myApps/ML_demo/build/edge_impulse/src/edge_impulse_project-stamp/edge_impulse_project-update.rule

@@ -1,0 +1,3 @@
+osource "c:/nordic/myapps/blinky_tutorial/boards/shields/*/Kconfig.defconfig"
+osource "c:/nordic/myapps/peripheral_lbs_1/boards/shields/*/Kconfig.defconfig"
+osource "C:/ncs/main/nrf/boards/shields/*/Kconfig.defconfig"
