@@ -382,6 +382,7 @@ The nRF Machine Learning application also uses the following dedicated applicati
   The module forwards the sensor readouts over UART.
 
 ``led_state``
+    This is where you edit the value and anomaly thresolds.  
   The module displays the application state using LEDs.
   The LED effects used to display the state of data forwarding, the machine learning results, and the state of the simulated signal are defined in :file:`led_state_def.h` file located in the application configuration directory.
   The common LED effects are used to represent the machine learning results and the simulated sensor signal.
