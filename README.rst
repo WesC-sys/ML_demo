@@ -127,44 +127,43 @@ To get accurate results you need to train and deploy a custom machine learning m
 The model needs to be trained with the labels "speed_1", "speed_2" (optional), "speed_3" and "off". 
 This is done by first using the nRF Edge Impulse mobile app and firmware to collect and upload multiple samples with the fan set to each corresponding speed, of 5 seconds length per sample. Alternatively longer sample lenghts can be collected, and split up in the ML Studio platform.
 Once the samples are collected and labeled and split 80/20 between training and testing, a model can be built using the following parameters: 
+
 Impulse design: 
-Window size: 5000 ms
-Widnow increase: 5000 ms
-Classification block
-Anomaly decection block
+* Window size: 5000 ms
+* Widnow increase: 5000 ms
+* Classification block
+* Anomaly decection block
 
 Create impulse: 
-Spectral features: 
-Filter:
-Scale axes: 1
-Input decimation ratio: 1
-Type: none
-Analysis:
-Type: wavelet
-Wavelet decomposition ratio: 1
-Wavelet: bior1.3
+* Spectral features: 
+* Filter:
+* Scale axes: 1
+* Input decimation ratio: 1
+* Type: none
+* Analysis:
+* Type: wavelet
+* Wavelet decomposition ratio: 1
+* Wavelet: bior1.3
 
 Classifier:
-Number of training cycles: 40
-Use learned optimizer: no 
-Learning rate: 0.0005
-Training processor: CPU
-Validation set size: 20 %
-Split train/validation set on metadata key: blank
-Batch size: 32
-Auto-weight classes: no
-Profile int8 model: yes
-Input layer (84 features)
-Dense layer (40 neurons)
-Dense layer (20 neurons)
-Dropout (rate 0.25)
-Output layer (3 classes)
+* Number of training cycles: 40
+* Use learned optimizer: no 
+* Learning rate: 0.0005
+* Training processor: CPU
+* Validation set size: 20 %
+* Split train/validation set on metadata key: blank
+* Batch size: 32
+* Auto-weight classes: no
+* Profile int8 model: yes
+* Input layer (84 features)
+* Dense layer (40 neurons)
+* Dense layer (20 neurons)
+* Dropout (rate 0.25)
+* Output layer (3 classes)
 
-Anomaly detection: 
-Select suggested axes 
+Anomaly detection: Select suggested axes 
 
-Eon tuner:
-Run eon tuner.
+Eon tuner: Run eon tuner.
 
 Configure your deployment: 
 Select C++ library, download the .zip file and replace model.zip in source with your downloaded .zip C++ library. Then, rename your new .zip file to "model.zip". 
@@ -343,9 +342,11 @@ After programming the application, perform the following steps to test the nRF M
 #. Click the Thingy:53's button to activate the relay to start the fan. 
     Notice that the color of the LED changes based on which speed setting the fan is set to. 
 #. Double click to deactivate the relay to stop the fan.
+    
 #. Add weight to the fan blades to create anomalies that will stop the fan automatically. 
     You might need to add more weight, or adjust the anomaly thresold values in the application to get reliable result. 
 #. You can connect the Thingy:53 to a PC with a USB-cable and use a terminal monitor to readout the inferencing results. 
+
 
 
 .. _nrf_machine_learning_app_internal_modules:
