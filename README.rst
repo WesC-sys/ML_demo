@@ -338,8 +338,8 @@ Testing with Thingy:53
 After programming the application, perform the following steps to test the nRF Machine Learning application on the Thingy:
 
 1. Turn on the Thingy.
-   The application starts in a mode that runs the machine learning model.
-   The RGB LED is blinking, because no gesture has been recognized by the machine learning model yet.
+    The application starts in a mode that runs the machine learning model.
+    The RGB LED is blinking, because no gesture has been recognized by the machine learning model yet.
 #. Click the Thingy:53's button to activate the relay to start the fan. 
     Notice that the color of the LED changes based on which speed setting the fan is set to. 
 #. Double click to deactivate the relay to stop the fan.
