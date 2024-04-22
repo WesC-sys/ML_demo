@@ -1,7 +1,7 @@
 .. _nrf_machine_learning_app:
 
 Machine Learning demo
-####################
+#####################
 
 .. contents::
    :local:
