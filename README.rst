@@ -132,7 +132,7 @@ Impulse design:
   * Window size: 5000 ms
   * Widnow increase: 5000 ms
   * Classification block
-  * Anomaly decection block
+  * Anomaly detection block
 
 Create impulse: 
   * Spectral features: 
@@ -344,11 +344,11 @@ After programming the application, perform the following steps to test the nRF M
 #. Click the Thingy:53's button to activate the relay to start the fan. 
     Notice that the color of the LED changes based on which speed setting the fan is set to. 
 #. Double click to deactivate the relay to stop the fan.
-    
+    Useful for exiting uninterrupted normal state operation 
 #. Add weight to the fan blades to create anomalies that will stop the fan automatically. 
     You might need to add more weight, or adjust the anomaly thresold values in the application to get reliable result. 
 #. You can connect the Thingy:53 to a PC with a USB-cable and use a terminal monitor to readout the inferencing results. 
-
+    Useful for when editing the value and anomaly thresholds.  
 
 
 .. _nrf_machine_learning_app_internal_modules:
