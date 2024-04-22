@@ -17,6 +17,7 @@ Requirements
 ************
 
 The application supports the following development kits:
+  * Thingy:53
 
 .. table-from-sample-yaml::
 
