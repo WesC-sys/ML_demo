@@ -129,37 +129,37 @@ This is done by first using the nRF Edge Impulse mobile app and firmware to coll
 Once the samples are collected and labeled and split 80/20 between training and testing, a model can be built using the following parameters: 
 
 Impulse design: 
-* Window size: 5000 ms
-* Widnow increase: 5000 ms
-* Classification block
-* Anomaly decection block
+  * Window size: 5000 ms
+  * Widnow increase: 5000 ms
+  * Classification block
+  * Anomaly decection block
 
 Create impulse: 
-* Spectral features: 
-* Filter:
-* Scale axes: 1
-* Input decimation ratio: 1
-* Type: none
-* Analysis:
-* Type: wavelet
-* Wavelet decomposition ratio: 1
-* Wavelet: bior1.3
+  * Spectral features: 
+  * Filter:
+  * Scale axes: 1
+  * Input decimation ratio: 1
+  * Type: none
+  * Analysis:
+  * Type: wavelet
+  * Wavelet decomposition ratio: 1
+  * Wavelet: bior1.3
 
 Classifier:
-* Number of training cycles: 40
-* Use learned optimizer: no 
-* Learning rate: 0.0005
-* Training processor: CPU
-* Validation set size: 20 %
-* Split train/validation set on metadata key: blank
-* Batch size: 32
-* Auto-weight classes: no
-* Profile int8 model: yes
-* Input layer (84 features)
-* Dense layer (40 neurons)
-* Dense layer (20 neurons)
-* Dropout (rate 0.25)
-* Output layer (3 classes)
+  * Number of training cycles: 40
+  * Use learned optimizer: no 
+  * Learning rate: 0.0005
+  * Training processor: CPU
+  * Validation set size: 20 %
+  * Split train/validation set on metadata key: blank
+  * Batch size: 32
+  * Auto-weight classes: no
+  * Profile int8 model: yes
+  * Input layer (84 features)
+  * Dense layer (40 neurons)
+  * Dense layer (20 neurons)
+  * Dropout (rate 0.25)
+  * Output layer (3 classes)
 
 Anomaly detection: Select suggested axes 
 
