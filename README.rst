@@ -161,12 +161,14 @@ Classifier:
   * Dropout (rate 0.25)
   * Output layer (3 classes)
 
-Anomaly detection: Select suggested axes 
+Anomaly detection: 
+  Select suggested axes 
 
-Eon tuner: Run eon tuner.
+Eon tuner: 
+  Run eon tuner.
 
 Configure your deployment: 
-Select C++ library, download the .zip file and replace model.zip in source with your downloaded .zip C++ library. Then, rename your new .zip file to "model.zip". 
+  Select C++ library, download the .zip file and replace model.zip in source with your downloaded .zip C++ library. Then, rename your new .zip file to "model.zip". 
 
 Build the application in VS Code and flash it to the Thingy:53 with the nRF Programmer PC app, using the dfu_application.zip from the build files. 
 
